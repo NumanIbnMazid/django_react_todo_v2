@@ -1,12 +1,5 @@
 # A simple `Todo` application made with `Django` & `React JS`
 
-## Features
-
-* Todo CRUD
-* Todo Filter
-* Prioritize Task
-* Responsive UI
-
 ## Tools
 
 * Python, Django, Django Rest Framework, Docker, PostgreSQL, JavaScript, React JS, Bootstrap
