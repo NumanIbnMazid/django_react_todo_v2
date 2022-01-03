@@ -24,10 +24,14 @@ There are two parts of this project:
 
 ### Project Setup
 
+##### (Prepare Initials)
+
+* Create a `.env` file using the template `.env.example` in project's root folder
+* Provide Secret Key along with Database and other credentials
+
 ##### (Prepare Backend)
 
 * Navigate to the `backend` directory
-* Create a `.env` file using the template `.env.example`
 * Create a python virtual environment for the project. Refer to this link for help: <https://gist.github.com/dreamorosi/e2947827e5de92b69df68c88475eba38>
 * Install the dependencies within the `backend` directory
 
