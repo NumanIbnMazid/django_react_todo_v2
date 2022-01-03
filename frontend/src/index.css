@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #ffffff;
+}
+
+.form-control {
+  background-color: #D6EAFF !important;
+  color: #878C91 !important;
+  font-weight: 700 !important;
+  font-size: 17px !important;
+}
+
+.bg-bluish {
+  background-color: #D6EAFF;
+}
+.color-bluish {
+  color: #D6EAFF;
+}
+
+.navbar-brand {
+  font-size: 1.7rem !important;
+  font-weight: 700;
+}
+
+/* #1178E2 */
+.todo-app-root {
+  background-color: #ffffff;
+}
+
+.todo-app-content {
+  background-color: #ffffff;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.todo-title {
+  cursor: pointer;
+}
+
+.completed-todo {
+  text-decoration: line-through;
+}
+
+.pointer {
+  cursor: pointer !important;
+}
