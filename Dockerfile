@@ -39,8 +39,8 @@ WORKDIR /app
 # SECRET_KEY is only included here to avoid raising an error when generating static files.
 # Be sure to add a real SECRET_KEY config variable in Heroku.
 RUN DJANGO_SETTINGS_MODULE=config.settings.production \
-    SECRET_KEY='django-insecure-#ny22i8ykr7v5&-h0kf*a6vph0(cbkip)or3=pe%k01jz*-@si' \
-    DATABASE_URL='postgres://kpidvoyybapdjx:f0421b1054e510e42af9e303f829c5050969f5fee41cc10fe8393ebd8090abf1@ec2-23-21-229-200.compute-1.amazonaws.com:5432/d89kehtsrh6ds2' \
+    SECRET_KEY=DJANGO_SUPER_SECRET_KEY \
+    DATABASE_URL=DJANGO_DATABASE_URL \
     python3 backend/manage.py collectstatic --noinput
 
 EXPOSE $PORT
